@@ -17,7 +17,7 @@ launched at once, and the number of launch sites.
 
 ## Usage
 Use --help to see what flags are available and what the defaults are for each flag:
-- `satcomm --help`
+- `./satcomm --help`
 
 Ex. changing the number of satellites to launch to 100:
-- `satcomm -sats=100`
+- `./satcomm -sats=100`

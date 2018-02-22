@@ -9,17 +9,15 @@ launched at once, and the number of launch sites.
 
 ## Install
 1. Clone repository: 
- - `git clone https://github.com/itsHabib/satcomm`
+    - `git clone https://github.com/itsHabib/satcomm`
 2. Navigate into command line interface directory:
- - `cd satcomm/cmd/satcomm`
+     - `cd satcomm/cmd/satcomm`
 3. Build command line application:
- - `go build`
+    - `go build`
 
 ## Usage
 Use --help to see what flags are available and what the defaults are for each flag:
-
 - `satcomm --help`
 
 Ex. changing the number of satellites to launch to 100:
-
 - `satcomm -sats=100`
